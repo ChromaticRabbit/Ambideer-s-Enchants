@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "minecraft:black_wool"
+    },
+    "G": {
+      "item": "minecraft:gold_nugget"
+    }
+  },
+  "pattern": [
+    "BBB",
+    "BGB",
+    "BBB"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:stick",
+    "components": {
+      "custom_model_data": 2,
+      "custom_name": "[{'text':'Music Disc','italic':false,'color':aqua}]",
+      "jukebox_playable": {
+        "song": "custom:slider",
+        "show_in_tooltip": true
+      }
+    }
+  }
+}

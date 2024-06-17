@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "minecraft:black_wool"
+    },
+    "G": {
+      "item": "minecraft:oak_sapling"
+    }
+  },
+  "pattern": [
+    "BBB",
+    "BGB",
+    "BBB"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:stick",
+    "components": {
+      "custom_model_data": 4,
+      "custom_name": "[{'text':'Music Disc','italic':false,'color':aqua}]",
+      "jukebox_playable": {
+        "song": "custom:forest_temple",
+        "show_in_tooltip": true
+      }
+    }
+  }
+}

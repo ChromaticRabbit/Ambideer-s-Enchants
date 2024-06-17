@@ -1,0 +1,1 @@
+execute as @n[type=!player] if data entity @s {NoAI:true} run kill @s

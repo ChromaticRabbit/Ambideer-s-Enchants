@@ -1,0 +1,42 @@
+{
+  "anvil_cost": 10,
+  "description": "Curse of Exiling",
+  "effects": {
+    "minecraft:post_attack": [
+      {
+        "enchanted": "victim",
+        "affected": "victim",
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "custom:exile"
+        },
+        "requirements": {
+          "condition": "minecraft:random_chance",
+          "chance": 0.05
+        }
+      }
+    ],
+    "minecraft:location_changed": [
+      {
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "custom:break_head_block"
+        }
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 70,
+    "per_level_above_first": 30
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 20,
+    "per_level_above_first": 30
+  },
+  "slots": [
+    "chest"
+  ],
+  "supported_items": "#minecraft:enchantable/equippable",
+  "weight": 1
+}

@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "minecraft:black_wool"
+    },
+    "G": {
+      "item": "minecraft:gunpowder"
+    }
+  },
+  "pattern": [
+    "BBB",
+    "BGB",
+    "BBB"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:stick",
+    "components": {
+      "custom_model_data": 1,
+      "custom_name": "[{'text':'Music Disc','italic':false,'color':aqua}]",
+      "jukebox_playable": {
+        "song": "custom:revenge",
+        "show_in_tooltip": true
+      }
+    }
+  }
+}

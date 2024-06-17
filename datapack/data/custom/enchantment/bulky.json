@@ -1,0 +1,35 @@
+{
+  "anvil_cost": 4,
+  "description": "Bulky",
+  "effects":{
+    "minecraft:attributes":[
+      {
+        "amount": 0.08,
+        "attribute": "minecraft:generic.gravity",
+        "id":"custom:enchantment.bulky_gravity",
+        "operation": "add_value"
+      },
+      {
+        "amount": 1.0,
+        "attribute": "minecraft:generic.knockback_resistance",
+        "id": "custom:enchantment.bulky_knockback",
+        "operation": "add_value"
+      }
+    ]
+
+  },
+  "max_cost":{
+    "base": 60,
+    "per_level_above_first": 20
+  },
+  "max_level": 1,
+  "min_cost":{
+    "base": 10,
+    "per_level_above_first": 20
+  },
+  "slots":[
+    "armor"
+  ],
+  "supported_items":"#minecraft:enchantable/equippable",
+  "weight": 2.0
+}

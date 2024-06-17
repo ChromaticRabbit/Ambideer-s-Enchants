@@ -1,0 +1,1 @@
+spreadplayers ~ ~ 20 20 under 100 false @e[type=#custom:warded,distance=1..15]

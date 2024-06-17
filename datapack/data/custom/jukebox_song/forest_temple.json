@@ -1,0 +1,8 @@
+{
+  "comparator_output": 1,
+  "description": "Forest Temple - Ocarina of Time",
+  "length_in_seconds": 104,
+  "sound_event": {
+    "sound_id": "minecraft:music_disc.forest_temple"
+  }
+}

@@ -1,0 +1,1 @@
+loot spawn ~ ~3 ~ loot minecraft:chests/abandoned_mineshaft

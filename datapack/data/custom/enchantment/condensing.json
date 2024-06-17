@@ -1,0 +1,28 @@
+{
+  "anvil_cost": 4,
+  "description": "Condensing",
+  "effects": {
+   "minecraft:location_changed":[
+    {
+      "effect":{
+        "type": "minecraft:run_function",
+        "function":"custom:increase_stack"
+      }
+    }
+   ]
+  },
+  "max_cost":{
+    "base": 60,
+    "per_level_above_first":20
+  },
+  "max_level": 1,
+  "min_cost":{
+    "base": 10,
+    "per_level_above_first": 20
+  },
+  "slots":[
+    "mainhand"
+  ],
+  "supported_items":"#minecraft:enchantable/mining",
+  "weight":8
+}

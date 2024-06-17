@@ -1,0 +1,17 @@
+{
+  "values":[
+    "minecraft:grass_block",
+    "minecraft:dirt",
+    "minecraft:stone",
+    "minecraft:andesite",
+    "minecraft:air",
+    "minecraft:granite",
+    "minecraft:diorite",
+    "minecraft:tuff",
+    "minecraft:sand",
+    "minecraft:red_sand",
+    "minecraft:water",
+    "minecraft:ice",
+    "minecraft:packed_ice"
+  ]
+}

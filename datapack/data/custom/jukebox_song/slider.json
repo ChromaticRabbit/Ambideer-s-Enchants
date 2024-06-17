@@ -1,0 +1,8 @@
+{
+  "comparator_output": 1,
+  "description": "Slider - Mario 64",
+  "length_in_seconds": 171,
+  "sound_event": {
+    "sound_id": "minecraft:music_disc.slider"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "music_disc.revenge": {
+    "sounds": [
+      {
+        "name": "records/revenge"
+      }
+    ]
+  },
+  "music_disc.slider": {
+    "sounds": [
+      {
+        "name": "records/slider"
+      }
+    ]
+  },
+  "music_disc.still_alive": {
+    "sounds": [
+      {
+        "name": "records/still_alive"
+      }
+    ]
+  },
+  "music_disc.forest_temple": {
+    "sounds": [
+      {
+        "name": "records/forest_temple"
+      }
+    ]
+  }
+}

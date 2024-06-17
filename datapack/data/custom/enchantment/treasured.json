@@ -1,0 +1,52 @@
+{
+  "anvil_cost": 4,
+  "description": "Treasured",
+  "effects":{
+    "minecraft:post_attack":[
+      {
+        "enchanted": "victim",
+        "affected": "victim",
+        "effect":{
+          "type": "minecraft:run_function",
+          "function": "custom:spawn_mineshaft_loot"
+        },
+        "requirements": {
+          "condition": "minecraft:random_chance",
+          "chance": 0.3
+        }
+        
+      },
+      {
+        "enchanted": "victim",
+        "affected": "victim",
+        "effect":{
+          "type": "minecraft:damage_item",
+          "amount":40
+        }
+      }
+    ],
+    "minecraft:equipment_drops": [
+      {
+        "enchanted": "victim",
+        "effect": {
+          "type": "minecraft:set",
+          "value": 0
+        }
+      }
+    ]
+  },
+  "max_cost":{
+    "base": 60,
+    "per_level_above_first": 20
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 10,
+    "per_level_above_first":20
+  },
+  "slots":[
+    "armor"
+  ],
+  "supported_items":"#minecraft:enchantable/equippable",
+  "weight": 9
+}

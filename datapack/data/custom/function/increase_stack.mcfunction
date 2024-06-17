@@ -1,0 +1,1 @@
+execute as @e[type=item,distance=1..10] run data merge entity @s {Item:{components:{"minecraft:max_stack_size":80}}}

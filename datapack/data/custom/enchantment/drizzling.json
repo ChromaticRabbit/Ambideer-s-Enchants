@@ -1,0 +1,34 @@
+{
+  "anvil_cost": 4,
+  "description": "Drizzling",
+  "effects": {
+    "minecraft:hit_block": [
+      {
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "custom:rain"
+        }
+      },
+      {
+        "effect": {
+          "type": "minecraft:damage_item",
+          "amount": 5
+        }
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 60,
+    "per_level_above_first": 20
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 10,
+    "per_level_above_first": 20
+  },
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": "#minecraft:hoes",
+  "weight": 4
+}

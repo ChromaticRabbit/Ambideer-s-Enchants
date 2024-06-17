@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "custom:blasting",
+    "custom:shrinking",
+    "custom:reaching",
+    "custom:backdraft",
+    "custom:bulky",
+    "custom:condensing",
+    "custom:reinforced",
+    "custom:magnetic",
+    "custom:lashing",
+    "custom:haunted",
+    "custom:frost_aspect",
+    "custom:drizzling",
+    "custom:sunny",
+    "custom:hovering",
+    "custom:warding",
+    "custom:enlarging",
+    "custom:exiling_curse"
+  ]
+}
