@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "minecraft:black_wool"
+    },
+    "G": {
+      "item": "minecraft:ender_pearl"
+    }
+  },
+  "pattern": [
+    "BBB",
+    "BGB",
+    "BBB"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:stick",
+    "components": {
+      "ambideer_model_data": 3,
+      "ambideer_name": "[{'text':'Music Disc','italic':false,'color':aqua}]",
+      "jukebox_playable": {
+        "song": "ambideer:still_alive",
+        "show_in_tooltip": true
+      }
+    }
+  }
+}

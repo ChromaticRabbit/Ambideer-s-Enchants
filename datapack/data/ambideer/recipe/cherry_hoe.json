@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:cherry_button"
+    },
+    {
+      "item": "minecraft:wooden_hoe"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:wooden_hoe",
+    "components": {
+      "ambideer_model_data": 7,
+      "ambideer_name": "[{'text': 'Cherry Hoe', 'italic':false}]"
+    }
+  }
+}

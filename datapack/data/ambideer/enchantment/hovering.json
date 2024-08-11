@@ -1,0 +1,41 @@
+{
+  "anvil_cost": 4,
+  "description": "Hovering",
+  "exclusive_set": "ambideer:bulky",
+  "effects": {
+    "minecraft:attributes": [
+      {
+        "amount": -0.08,
+        "attribute": "minecraft:generic.gravity",
+        "id": "ambideer:enchantment.hoveirng",
+        "operation": "add_value"
+      }
+    ],
+    "minecraft:location_changed": [
+      {
+        "effect": {
+          "type": "minecraft:damage_item",
+          "amount": 2
+        },
+        "requirements": {
+          "condition": "minecraft:random_chance",
+          "chance": 0.05
+        }
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 60,
+    "per_level_above_first": 20
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 10,
+    "per_level_above_first": 20
+  },
+  "slots": [
+    "feet"
+  ],
+  "supported_items": "#minecraft:enchantable/armor",
+  "weight": 2
+}

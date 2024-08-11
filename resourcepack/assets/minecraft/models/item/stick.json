@@ -6,25 +6,25 @@
   "overrides": [
     {
       "predicate": {
-        "custom_model_data": 1
+        "ambideer_model_data": 1
       },
       "model": "minecraft:item/revenge_disc"
     },
     {
       "predicate": {
-        "custom_model_data": 2
+        "ambideer_model_data": 2
       },
       "model": "minecraft:item/slider_disc"
     },
     {
       "predicate": {
-        "custom_model_data": 3
+        "ambideer_model_data": 3
       },
       "model": "minecraft:item/still_alive_disc"
     },
     {
       "predicate": {
-        "custom_model_data": 4
+        "ambideer_model_data": 4
       },
       "model": "minecraft:item/forest_temple_disc"
     }

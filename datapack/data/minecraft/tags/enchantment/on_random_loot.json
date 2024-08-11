@@ -1,6 +1,6 @@
 {
   "replace": false,
-  "values":[
-    "custom:petrify"
+  "values": [
+    "ambideer:petrify"
   ]
 }

@@ -1,1 +1,0 @@
-fill ~ ~-2 ~ ~ ~-1 ~ minecraft:powder_snow replace #custom:frost_aspect_blocks

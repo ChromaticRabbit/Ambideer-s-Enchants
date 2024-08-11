@@ -1,0 +1,68 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "minecraft:item/wooden_sword"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "ambideer_model_data": 1
+      },
+      "model": "minecraft:item/spruce_sword"
+    },
+    {
+      "predicate": {
+        "ambideer_model_data": 2
+      },
+      "model": "minecraft:item/birch_sword"
+    },
+    {
+      "predicate": {
+        "ambideer_model_data": 3
+      },
+      "model": "minecraft:item/jungle_sword"
+    },
+    {
+      "predicate": {
+        "ambideer_model_data": 4
+      },
+      "model": "minecraft:item/acacia_sword"
+    },
+    {
+      "predicate": {
+        "ambideer_model_data": 5
+      },
+      "model": "minecraft:item/dark_oak_sword"
+    },
+    {
+      "predicate": {
+        "ambideer_model_data": 6
+      },
+      "model": "minecraft:item/mangrove_sword"
+    },
+    {
+      "predicate": {
+        "ambideer_model_data": 7
+      },
+      "model": "minecraft:item/cherry_sword"
+    },
+    {
+      "predicate": {
+        "ambideer_model_data": 8
+      },
+      "model": "minecraft:item/bamboo_sword"
+    },
+    {
+      "predicate": {
+        "ambideer_model_data": 9
+      },
+      "model": "minecraft:item/crimson_sword"
+    },
+    {
+      "predicate": {
+        "ambideer_model_data": 10
+      },
+      "model": "minecraft:item/warped_sword"
+    }
+  ]
+}

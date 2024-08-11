@@ -1,0 +1,1 @@
+fill ~ ~-2 ~ ~ ~-1 ~ minecraft:powder_snow replace #ambideer:frost_aspect_blocks

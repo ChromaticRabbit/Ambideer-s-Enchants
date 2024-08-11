@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:mangrove_button"
+    },
+    {
+      "item": "minecraft:wooden_shovel"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:wooden_shovel",
+    "components": {
+      "ambideer_model_data": 6,
+      "ambideer_name": "[{'text': 'Mangrove Shovel', 'italic':false}]"
+    }
+  }
+}

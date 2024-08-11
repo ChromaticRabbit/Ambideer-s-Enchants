@@ -1,0 +1,14 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "minecraft:item/acacia_axe"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "ambideer_model_data": 1,
+        "model": "minecraft:item/pumpkin_pie"
+      }
+    }
+  ]
+}
